@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+}
+
+a.enlace{
+    color: black;
+}
+
+div.main {
+    display: grid;
+        margin-left: 41%;
+            background-color: thistle;
+                width: fit-content;
+                padding: 5%;
+                border-radius: 10px;
+}

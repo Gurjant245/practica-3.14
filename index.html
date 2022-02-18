@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Accede a tu Área Clientes</h1>
+    </header>
+    <main>
+        <div class="main">
+        <form action="formularios1.php">
+            <p>Elige tu Documento</p>
+            <p><input type="radio" name="doc" value="DNI"> DNI o NIE</p>
+            <p><input type="radio" name="doc" value="passport"> Pasaporte</p>
+            <p class="numDoc">Numero de documento</p>
+            <input type="text" name="docNumber" id="numberDoc">
+            <p class="numDoc">Fecha de nacimiento</p>
+            <input type="date" name="birth" id="birthDate">
+            <p><input type="checkbox" name="remember" id="remember">Recordar <a href=""> ?</a></p>
+            <input type="button" value="Entrar">
+        </form>
+            <ul>
+                <li class="lista"><a href="" class="enlace"> Acceder con DNIe </a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
